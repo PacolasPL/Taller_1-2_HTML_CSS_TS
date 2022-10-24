@@ -1,0 +1,110 @@
+body {
+background-image: url("https://wallpaperaccess.com/full/2772327.jpg");
+padding-left: 5%;
+padding-right: 5%;
+margin-bottom: 5px;
+}
+h1 {
+ color: #ffffff;
+
+ padding-left: 5%;
+ text-align: left;
+ font-family: Cambria;
+ 
+}
+button{
+    border: 0;
+    background-color: #ffffff;
+}
+h4 {
+    color: rgb(201, 46, 32);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+   }
+h3 {
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.abc{
+    background-color: blue;
+}
+p {
+ font-family: times;
+ font-size: 12px;
+}
+
+table.datos {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(28, 113, 204);
+  }
+.head_{
+    background-color: rgb(66, 66, 253);
+    font-size: 14;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:oblique;
+}
+.cab{
+    background-color :rgb(66, 66, 253);
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.containerc{
+    background-color: rgb(255, 255, 255);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    
+}
+.containerb{
+    background-color: rgb(52, 98, 224);
+    height:80%;
+    position: absolute;
+    
+    
+}
+footer {
+    background-color: black;
+    
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+  }
+.text{
+   
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+p.justo {
+    font-family: times;
+    font-size: 16px;
+    text-align: justify;
+   }
+p.center {
+    font-family: times;
+    font-size: 16px;
+    text-align: justify;
+    padding-top: 30%;
+}
+p.centrado {
+    font-family: times;
+    font-size: 16px;
+    text-align: center;
+   }
+img{
+    width: 100% ;
+}
