@@ -1,6 +1,6 @@
 
-import {series} from "./ts/data.js";
-import {Serie} from "./ts/serie.js";
+import {series} from "./data.js";
+import {Serie} from "./serie.js";
 let srs: Serie[];
 srs = series;
 

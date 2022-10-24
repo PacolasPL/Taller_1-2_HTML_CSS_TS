@@ -1,5 +1,5 @@
 var _a;
-import { series } from "./ts/data.js";
+import { series } from "./data.js";
 let srs;
 srs = series;
 let tableid = document.getElementById("table");
