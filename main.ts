@@ -1,5 +1,4 @@
-import { getHostname } from "../../../../../node_modules/webpack-dev-server/types/lib/Server.js";
-import { Template } from "../../../../../node_modules/webpack/types.js";
+
 import {series} from "./ts/data.js";
 import {Serie} from "./ts/serie.js";
 let srs: Serie[];
@@ -40,11 +39,11 @@ function update(id: number):any{
     const show  = document.getElementById("show");
     if (sr!=null && show != null){
     
-    let img = "<div class =\"container\"><img src = '" +  sr.getImg() +"' ></div>";
-    let name = "<div> <h4> " + sr.getName()+"</h4>  </div>";
-    let resume = "<div class =\"containerc\"> <h3> " + sr.getResume()+"</h3>  </div>";
+    let img = "<img class ='card-img-top' src = '" +  sr.getImg() +"' >";
+    let name = "<h4 class = 'card-title'> " + sr.getName()+"</h4> ";
+    let resume = "<h3 class ='card-text' > " + sr.getResume()+"</h3> ";
     console.log(sr.getImg());
-    let pg = "<div class =\"containerc\"><a href=\""+sr.getPage() +"  \">" + sr.getPage()+"</a></div>";
-    show.innerHTML = img+ name+resume+pg;}
-    
+    let pg = "<a ' href=\""+sr.getPage() +"  \">" + sr.getPage()+"</a>";
+    show.innerHTML = "<div class=\"card\"> "+ img+ "<div class ='card-body'>" + name+resume+pg + "</div></div>";
+    }
 }
